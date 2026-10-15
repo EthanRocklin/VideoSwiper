@@ -1,22 +1,35 @@
 package com.example.videoswiper;
 
+/**
+ *
+ */
+
 public class VideoItem {
-    private String videoDescription;
-    private String videoTitle;
-    private String videoURL;
+    private String description;
+    private String title;
+    private String url;
 
 
 
-    public String getVideoDescription() {
-        return videoDescription;
+    public String getDescription() {
+        return description;
+    }
+    public String getTitle() {
+        return title;
+    }
+    public String getUrl() {
+        return url;
     }
 
-    public String getVideoTitle() {
-        return videoTitle;
+    public void setDescription(String description) {
+        this.description = description;
+    }
+    public void setTitle(String title) {
+        this.title = title;
+    }
+    public void setURL(String url) {
+        this.url = url;
     }
 
-    public String getVideoURL() {
-        return videoURL;
-    }
 
 }
